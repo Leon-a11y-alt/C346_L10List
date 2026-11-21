@@ -18,7 +18,7 @@ Screenshots: <br>
 # Demo Video
 
 Demo Video Link: <br>
-PASTE_VIDEO_LINK_HERE
+[https://youtube.com/shorts/Cs099R98Pqs](https://youtube.com/shorts/Cs099R98Pqs)
 
 # Image Credits
 All photos are from Wikimedia Commons. The app loads them online from this repo's `img` folder (through raw.githubusercontent.com), because Wikimedia blocks image requests from the app's default user agent.
