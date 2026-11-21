@@ -3,7 +3,7 @@
 A React Native (Expo) list app that shows popular Singapore hawker dishes, grouped into sections: Rice Dishes, Noodles, and Desserts and Snacks. Each dish shows a photo, its name and a short description.
 
 # Image Credits
-All photos are from Wikimedia Commons.
+All photos are from Wikimedia Commons. The app loads them online from this repo's `img` folder (through raw.githubusercontent.com), because Wikimedia blocks image requests from the app's default user agent.
 - `img/chicken_rice.jpg`: [Hainanese chicken rice in Singapore](https://commons.wikimedia.org/wiki/File:Hainanese_chicken_rice_in_Singapore.jpg) by Pauloleong2002, CC BY-SA 4.0
 - `img/nasi_lemak.jpg`: [Nasi lemak on banana leaf](https://commons.wikimedia.org/wiki/File:Nasi_lemak_on_banana_leaf.jpg) by Jpatokal, CC BY-SA 4.0
 - `img/laksa.jpg`: [Katong laksa](https://commons.wikimedia.org/wiki/File:Katong_laksa.jpg) by ProjectManhattan, CC0

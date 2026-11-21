@@ -4,18 +4,24 @@ import { FontAwesome6 } from '@expo/vector-icons';
 
 const datasource = [
   {data:[
-      {key: 'Hainanese Chicken Rice', description: 'Poached chicken with fragrant rice cooked in chicken stock.', picture: require('./img/chicken_rice.jpg')},
-      {key: 'Nasi Lemak', description: 'Coconut rice with sambal, fried chicken, egg and ikan bilis.', picture: require('./img/nasi_lemak.jpg')},
+      {key: 'Hainanese Chicken Rice', description: 'Poached chicken with fragrant rice cooked in chicken stock.',
+        picture: 'https://raw.githubusercontent.com/Leon-a11y-alt/C346_L10List/master/img/chicken_rice.jpg'},
+      {key: 'Nasi Lemak', description: 'Coconut rice with sambal, fried chicken, egg and ikan bilis.',
+        picture: 'https://raw.githubusercontent.com/Leon-a11y-alt/C346_L10List/master/img/nasi_lemak.jpg'},
     ],
     title: "Rice Dishes", icon: "bowl-rice", bgcolor: "#F4A261"},
   {data:[
-      {key: 'Laksa', description: 'Spicy coconut curry noodle soup with prawns and fishcake.', picture: require('./img/laksa.jpg')},
-      {key: 'Char Kway Teow', description: 'Flat rice noodles stir-fried with dark soy sauce and cockles.', picture: require('./img/char_kway_teow.jpg')},
+      {key: 'Laksa', description: 'Spicy coconut curry noodle soup with prawns and fishcake.',
+        picture: 'https://raw.githubusercontent.com/Leon-a11y-alt/C346_L10List/master/img/laksa.jpg'},
+      {key: 'Char Kway Teow', description: 'Flat rice noodles stir-fried with dark soy sauce and cockles.',
+        picture: 'https://raw.githubusercontent.com/Leon-a11y-alt/C346_L10List/master/img/char_kway_teow.jpg'},
     ],
     title: "Noodles", icon: "bowl-food", bgcolor: "#E76F51"},
   {data:[
-      {key: 'Ice Kacang', description: 'Shaved ice with red beans, jelly, corn and colourful syrups.', picture: require('./img/ice_kacang.jpg')},
-      {key: 'Kaya Toast', description: 'Toast with coconut jam and butter, a classic breakfast.', picture: require('./img/kaya_toast.jpg')},
+      {key: 'Ice Kacang', description: 'Shaved ice with red beans, jelly, corn and colourful syrups.',
+        picture: 'https://raw.githubusercontent.com/Leon-a11y-alt/C346_L10List/master/img/ice_kacang.jpg'},
+      {key: 'Kaya Toast', description: 'Toast with coconut jam and butter, a classic breakfast.',
+        picture: 'https://raw.githubusercontent.com/Leon-a11y-alt/C346_L10List/master/img/kaya_toast.jpg'},
     ],
     title: "Desserts and Snacks", icon: "ice-cream", bgcolor: "#E5989B"},
 ];
@@ -23,7 +29,7 @@ const datasource = [
 const renderItem = ({item}) => {
   return (
       <TouchableOpacity style={styles.itemCard}>
-        <Image source={item.picture} style={styles.itemImage}/>
+        <Image source={{uri: item.picture}} style={styles.itemImage}/>
         <View style={styles.itemTextBox}>
           <Text style={styles.itemName}>{item.key}</Text>
           <Text style={styles.itemDescription}>{item.description}</Text>
