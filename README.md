@@ -2,6 +2,24 @@
 
 A React Native (Expo) list app that shows popular Singapore hawker dishes, grouped into sections: Rice Dishes, Noodles, and Desserts and Snacks. Each dish shows a photo, its name and a short description.
 
+# Features Highlight
+
+- **SectionList** with three sections: Rice Dishes, Noodles, and Desserts and Snacks, with two dishes in each.
+- **Section headers** show a food icon (bowl of rice, noodle bowl, ice cream) on their own colour.
+- **Each list item** is a clickable TouchableOpacity card with an online photo, the dish name and a short description.
+- **Title bar** with a utensils icon at the top of the app.
+- **StyleSheet and Flexbox**: rows with `flexDirection: 'row'` and `alignItems: 'center'`, rounded cards with `borderRadius`, and `contentContainerStyle` padding around the list.
+
+# ScreenShots of App
+
+Screenshots: <br>
+<img src="screenshots/food_list.png" width="250">
+
+# Demo Video
+
+Demo Video Link: <br>
+PASTE_VIDEO_LINK_HERE
+
 # Image Credits
 All photos are from Wikimedia Commons. The app loads them online from this repo's `img` folder (through raw.githubusercontent.com), because Wikimedia blocks image requests from the app's default user agent.
 - `img/chicken_rice.jpg`: [Hainanese chicken rice in Singapore](https://commons.wikimedia.org/wiki/File:Hainanese_chicken_rice_in_Singapore.jpg) by Pauloleong2002, CC BY-SA 4.0
