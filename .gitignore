@@ -39,3 +39,7 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# demo videos (not committed to GitHub)
+*.mp4
+*.mov
